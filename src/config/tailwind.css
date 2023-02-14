@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Vazirmatn:wght@100;400;500;600;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+    z-index: 1000;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: var(--color-bg-alt);
+    z-index: 1000;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: var(--color-bg-primary);
+    border-radius: 100vh;
+    z-index: 1000;
+    border: 3px solid #f6f7ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background:var(--color-bg-secondary);
+    z-index: 1000;
+  }
+}
+
+.root,
+#root{
+
+  /* light theme */
+  --color-bg-primary: #FF3C4B;
+  --color-bg-primary-hover: #fb6d68;
+  --color-bg-secondary:#282828;
+  --color-bg-secondary-hover:#4b4b4b;
+  --color-bg-teritary:#3ea6ff;
+  --color-bg-teritary-hover:#53afff;
+  --color-bg-main:#f8f6f6;
+  --color-bg-alt:#FBFAFA;
+  --color-text-primary: #12161d;
+  --color-text-main: #FF3C4B;
+  --color-text-secondary: #2d3748;
+
+  /* dark theme */
+  --color-bg-primary-dark: #b00202;
+  --color-bg-primary-hover-dark: #c81b2a;
+  --color-bg-secondary-dark:#1a1a1a;
+  --color-bg-secondary-hover-dark:#2c2c2c;
+  --color-bg-teritary-dark:#2f95ee;
+  --color-bg-teritary-hover-dark:#41a2f7;
+  --color-bg-main-dark:#181818;
+  --color-bg-alt-dark:#212121;
+  --color-bg-gray:#44403C;
+  --color-text-primary-dark: #e6e9eb;
+  --color-text-main-dark: #d72e3c;
+  --color-text-secondary-dark: #ced3db;
+
+
+
+}

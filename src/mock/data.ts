@@ -1,0 +1,26 @@
+export const colors = [
+  { color: '#12161d', text: 'black' },
+  { color: '#FFF', text: 'white' },
+  { color: '#E91E63', text: 'pink' },
+  { color: '#C21858', text: 'rose' },
+  { color: '#9C2780', text: 'fuchsia' },
+  { color: '#572780', text: 'purple' },
+  { color: '#272A80', text: 'indingo' },
+  { color: '#276880', text: 'blue' },
+  { color: '#57ACDC', text: 'skyBlue' },
+  { color: '#57DCBE', text: 'teal' },
+  { color: '#60C689', text: 'green' },
+];
+export const colorsList = [
+  '#12161d',
+  '#FFF',
+  '#E91E63',
+  '#C21858',
+  '#9C2780',
+  '#572780',
+  '#272A80',
+  '#276880',
+  '#57ACDC',
+  '#57DCBE',
+  '#60C689',
+];
